@@ -1,0 +1,17 @@
+{
+  "name": "pilbox",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "turbo": "^2.4.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "bun@1.0.25",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "workspaces": ["apps/*"]
+}
